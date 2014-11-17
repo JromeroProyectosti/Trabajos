@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Soporte" Class="ModuloTrabajosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=Soporte;Persist Security Info=True;User ID=sa" SettingsObjectName="TrabajosEntity.Properties.Settings" SettingsPropertyName="SoporteConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.USUARIO" Member="USUARIO">
+    <Type Name="USUARIO">
+      <Column Name="IdUsuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Usuario" Member="Usuario1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Activo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="USUARIO_TRABAJO" Member="TRABAJO" ThisKey="IdUsuario" OtherKey="IdUsuario" Type="TRABAJO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CLIENTE" Member="CLIENTE">
+    <Type Name="CLIENTE">
+      <Column Name="IdCliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Correo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CLIENTE_TRABAJO" Member="TRABAJO" ThisKey="IdCliente" OtherKey="IdCliente" Type="TRABAJO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TRABAJO" Member="TRABAJO">
+    <Type Name="TRABAJO">
+      <Column Name="IdTrabajo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdCliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdEstado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdUsuario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdPrioridad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRequerimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FechaTermino" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Observacion" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Association Name="CLIENTE_TRABAJO" Member="CLIENTE" ThisKey="IdCliente" OtherKey="IdCliente" Type="CLIENTE" IsForeignKey="true" />
+      <Association Name="USUARIO_TRABAJO" Member="USUARIO" ThisKey="IdUsuario" OtherKey="IdUsuario" Type="USUARIO" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
