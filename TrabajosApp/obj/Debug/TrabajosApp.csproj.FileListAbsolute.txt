@@ -1,0 +1,7 @@
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\bin\Debug\TrabajosApp.dll
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\bin\Debug\TrabajosApp.pdb
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\bin\Debug\TrabajosEntity.dll
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\bin\Debug\TrabajosEntity.pdb
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\obj\Debug\TrabajosApp.csprojResolveAssemblyReference.cache
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\obj\Debug\TrabajosApp.dll
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosApp\obj\Debug\TrabajosApp.pdb

@@ -15,6 +15,7 @@ namespace TrabajosDao
         {
             SqlConnection conn = new SqlConnection(conexion.strConexion());
             conn.Open();
+            SqlCommand cmd = new SqlCommand("");
 
         }
     }

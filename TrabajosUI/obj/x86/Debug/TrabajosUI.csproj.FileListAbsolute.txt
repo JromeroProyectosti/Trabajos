@@ -1,0 +1,13 @@
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.GestionCliente.resources
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.GestionUsuario.resources
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.Properties.Resources.resources
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.csproj.GenerateResource.Cache
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\bin\Debug\TrabajosUI.exe
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\bin\Debug\TrabajosUI.pdb
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\bin\Debug\TrabajosApp.dll
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\bin\Debug\TrabajosEntity.dll
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\bin\Debug\TrabajosApp.pdb
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\bin\Debug\TrabajosEntity.pdb
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.csprojResolveAssemblyReference.cache
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.exe
+c:\users\jonathan\documents\visual studio 2010\Projects\Trabajos\TrabajosUI\obj\x86\Debug\TrabajosUI.pdb
