@@ -2,10 +2,10 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ModuloTrabajos">
   <DataContextMoniker Name="/ModuloTrabajosDataContext" />
   <nestedChildShapes>
-    <classShape Id="c646b3d5-22b4-4de7-a89e-fd1b024a9cf6" absoluteBounds="0.5, 3.375, 2, 1.7708968098958327">
+    <classShape Id="c646b3d5-22b4-4de7-a89e-fd1b024a9cf6" absoluteBounds="0.5, 2.25, 2, 1.7708968098958327">
       <DataClassMoniker Name="/ModuloTrabajosDataContext/USUARIO" />
       <nestedChildShapes>
-        <elementListCompartment Id="9f1dc808-8e9d-479f-865c-0d1c80bbbcb7" absoluteBounds="0.515, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="9f1dc808-8e9d-479f-865c-0d1c80bbbcb7" absoluteBounds="0.515, 2.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="922fbe61-d6b9-433d-9e3a-96cb2db71f33" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
@@ -20,14 +20,14 @@
         <elementListCompartment Id="e47f2db3-e52d-4a40-85fa-b28fe5160a77" absoluteBounds="4.0150000000000006, 1.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(2.5 : 1.35179768880208); (4 : 1.35179768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.5 : 1.35179768880208); (4 : 1.35179768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/ModuloTrabajosDataContext/CLIENTE/CLIENTE_TRABAJO" />
       <nodes>
         <classShapeMoniker Id="922fbe61-d6b9-433d-9e3a-96cb2db71f33" />
         <classShapeMoniker Id="cecb06e0-5e70-421c-912e-d9412e0023bb" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(2.5 : 4.26044840494792); (5 : 4.26044840494792); (5 : 2.97280110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.5 : 2.61140055338542); (4 : 2.61140055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/ModuloTrabajosDataContext/USUARIO/USUARIO_TRABAJO" />
       <nodes>
         <classShapeMoniker Id="c646b3d5-22b4-4de7-a89e-fd1b024a9cf6" />

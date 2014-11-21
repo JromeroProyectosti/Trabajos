@@ -36,8 +36,8 @@
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DetalleCliente = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DetalleCliente)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -46,6 +46,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(251, 20);
             this.txtNombre.TabIndex = 0;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // label1
             // 
@@ -107,20 +108,20 @@
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // DetalleCliente
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 146);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(302, 150);
-            this.dataGridView1.TabIndex = 8;
+            this.DetalleCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DetalleCliente.Location = new System.Drawing.Point(12, 146);
+            this.DetalleCliente.Name = "DetalleCliente";
+            this.DetalleCliente.Size = new System.Drawing.Size(302, 150);
+            this.DetalleCliente.TabIndex = 8;
             // 
             // GestionCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 305);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DetalleCliente);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtTelefono);
@@ -131,7 +132,7 @@
             this.Controls.Add(this.txtNombre);
             this.Name = "GestionCliente";
             this.Text = "GestionCliente";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DetalleCliente)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +148,6 @@
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DetalleCliente;
     }
 }
